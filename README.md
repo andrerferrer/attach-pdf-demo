@@ -22,5 +22,4 @@ end
 <% end %>
 ```
 
-4. Download the file
-TO BE DONE
+4. [Download or Preview the file](https://stackoverflow.com/a/51563268/10804246)
