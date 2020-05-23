@@ -13,3 +13,14 @@ class Article < ApplicationRecord
 	has_one_attached :pdf
 end
 ```
+3. Add the file to the form view
+```ruby
+<%= simple_form_for @article do |f| %>
+  <%= f.input :title %>
+  <%= f.input :pdf, as: :file %>
+  <%= f.button :submit %>
+<% end %>
+```
+
+4. Download the file
+TO BE DONE
